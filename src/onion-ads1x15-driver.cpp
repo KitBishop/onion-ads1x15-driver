@@ -189,7 +189,7 @@ int ads1X15::ReadMaxVoltage (float maxVoltage)
 	};
 
 	// find the 
-	while (maxVoltage <= voltages[index+1]) {
+	while (maxVoltage < voltages[index+1]) {
 		index++;
 	}
 

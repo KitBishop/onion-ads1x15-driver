@@ -13,13 +13,7 @@
 #define ADS1X15_MAIN_DEFAULT_VERBOSITY 			(ADS1X15_MAIN_VERBOSITY_NORMAL)
 #define ADS1X15_MAIN_DEFAULT_DEBUG	 			(0)
 
-typedef enum
-{
-	OUTPUT_STANDARD			= 0,
-	OUTPUT_RAW,
-	OUTPUT_MILLIVOLT,
-        OUTPUT_VOLT
-} outputType_t;
+
 
 struct adsSetup {
 	int 	channel;
