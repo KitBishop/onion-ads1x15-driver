@@ -25,11 +25,11 @@ Usage:
 	    5 - max voltage 0.256V
 	-t<type>    Type: the device type
 	    1015 - 12 bit A/D - the default. Maximum raw data value 2047
-	    1115 - 16 bit A/D. Maximum raw data value 32767<br>
-	-o<output>  Output: form of result output<br>
-	    s - standard output giving channel number and raw data - the default<br>
-	    r - raw data read<br>
-	    m - data read in millivolts<br>
-	    v - data read in volts<br>
-	-d	Debug: do not carry out any I2C transactions<br>
+	    1115 - 16 bit A/D. Maximum raw data value 32767
+	-o<output>  Output: form of result output
+	    s - standard output giving channel number and raw data - the default
+	    r - raw data read
+	    m - data read in millivolts
+	    v - data read in volts
+	-d	Debug: do not carry out any I2C transactions
 ```
