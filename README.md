@@ -1,6 +1,7 @@
 # onion-ads1x15-driver
 Driver for ADS1x15 ADC chips that run on an I2C interface.<br>
 <br>
+```
 Usage:<br>
 	./ads1x15-chip [options] <channel> [max-voltage]<br>
 <br>
@@ -31,3 +32,4 @@ Usage:<br>
 	    m - data read in millivolts<br>
 	    v - data read in volts<br>
 	-d	Debug: do not carry out any I2C transactions<br>
+```
